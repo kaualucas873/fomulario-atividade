@@ -1,0 +1,18 @@
+body{
+  color: rgb(8, 0, 8);
+  background-color: rgb(0, 0, 0);
+  vertical-align;
+ top: 10cm;
+  height:10cm;
+}
+.quadrado{
+    background-color: rgb(255, 175, 219);
+   size: 5cm;
+   height: 10cm;
+}
+form{
+    display: flex;
+    justify-content: center;
+
+
+}

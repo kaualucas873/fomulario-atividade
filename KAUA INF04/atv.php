@@ -6,8 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="at.php" method="post"></form>
+   <?php 
+   
+   if ($_SERVER['REQUEST_METHOD'] == "POST"){
 
+    $Nome =
+
+
+   }
+   
+   
+   
+   
+   ?>
   
 </body>
 </html>

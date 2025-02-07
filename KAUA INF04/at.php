@@ -10,24 +10,24 @@
 <body>
     <div class= "quadrado">
 
-    <form action="action.php" method="post">
-    <label >Nome:</label>
-    <input name="name" id="nome" type="text">
+    <form action="atv.php" method="post">
+    <label >Nome:</label >
+    <input name="name" id="nome" type="text" required>
 
     <label>Idade:</label>
-    <input name="age" id="age" type="number">
+    <input name="age" id="age" type="number" required>
     
     <label> Telefone </label>
-    <input name="age" id=telefone type="number">
+    <input name="age" id=telefone type="number"required>
 
     <Label>Email</Label>
-    <input name=email type="text" id="email" >
+    <input name=email type="text" id="email" required >
 
     <label>Endereço</label>
-    <input name=endereço type="text" id="endereço">
+    <input name=endereço type="text" id="endereço" required>
     
     <lavel>Mensagem</label>
-    <input name=mensagem type="text" id="mensagem"> 
+    <input name=mensagem type="text" id="mensagem"required> 
     
     <button type="submit">Enviar</button>
     </form> 
